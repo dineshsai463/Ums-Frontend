@@ -1,0 +1,38 @@
+.footer {
+  border-top: 1px solid black;
+  background-color: black;
+  color: white;
+  text-align: center; 
+  padding: 10px 0;
+  /* Add any other styles you need */
+}
+
+.header {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  
+}
+
+
+.user-details {
+  flex-grow: 1; /* This makes UserDetailsComponent fill remaining space */
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  padding: 20px;
+  /* Add any other styles you need */
+}
+
+.user-form {
+  flex-grow: 1; /* This makes UserForm fill remaining space */
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  padding: 20px;
+  /* Add any other styles you need */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+   /* Ensure the container takes up the full viewport height */
+}
